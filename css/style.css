@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+}
+.discount{
+    background-color: #1CD1B0;
+    padding: 10px ;
+}
+.header{
+    background-color: #00669F;
+}
+.header h1{
+    padding: 28px;
+    font-size: 40px;
+    line-height: 47px;
+}
+.flexcontain{
+    margin: 100px 20px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+}
+.cards{
+    width: 300px;
+    background-color: #f3f3f3;
+}
+.card1{position: relative;
+    height: 193px;
+}
+.logo{
+    position:absolute;
+    left: 90px;
+    top: 128px;
+    right: 90px;
+    bottom: 53px;
+    border-radius: 100px;
+
+
+}
+.like{
+    position: absolute;
+    left:21px;
+    top: 15.88px;
+}
+.card2{
+    height: 336px;
+    width:  300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* flex-direction: column; */
+
+}
+
+.titulo{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    position: absolute;
+    top: 74px;
+    bottom: 227px;
+
+}
+.texto{
+    /* display: flex; */
+    position: absolute;
+    top: 118px;
+    right: 17px;
+    bottom: 104px;
+    left: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.button{
+    position: absolute;
+    top: 269px;
+    left: 85px;
+    width: 128.78px;
+    height: 48.52px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F3F3;
+    background-color: 
+    #00669F;
+}
+footer{
+    background: #00669F;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFF9F9;
+}
